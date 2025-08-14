@@ -11,9 +11,6 @@ html {
 	font-family: 'Poppins', sans-serif;
 }
 
-/* ********************************** */
-/*             UTILIDADES             */
-/* ********************************** */
 .container {
 	max-width: 120rem;
 	margin: 0 auto;
@@ -25,11 +22,6 @@ html {
 	font-size: 3rem;
 }
 
-/* ********************************** */
-/*               HEADER               */
-/* ********************************** */
-
-/*logo*/
 .container-logo {
 	display: flex;
 	align-items: center;
@@ -76,7 +68,6 @@ html {
 	flex-direction: column;
 }
 
-/* ************* NAVBAR ************* */
 .container-navbar {
 	background-color: var(--primary-color);
 }
@@ -91,7 +82,7 @@ html {
 .navbar .fa-bars {
 	display: none;
 }
-/*menus*/
+
 .menu {
 	display: flex;
 	gap: 2rem;
@@ -134,9 +125,8 @@ html {
 .iot-section {
   padding: 40px 20px;
   text-align: center;
-  
 }
-/*titulo*/
+
 .iot-title {
   font-size: 5rem;
   font-weight: bold;
@@ -169,17 +159,10 @@ html {
   line-height: 1.8;
 }
 
-
-/* ********************************** */
-/*            MAIN CONTENT            */
-/* ********************************** */
 .main-content {
 	background-color: var(--background-color);
 }
 
-/* ********************************** */
-/*              FEATURES              */
-/* ********************************** */
 .container-features {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -195,7 +178,6 @@ html {
 	background-color: #ffffff;
 	border-radius: 1rem;
 	padding: 20px;
-
 }
 
 .card-feature i {
@@ -221,10 +203,6 @@ html {
 	font-weight: 500;
 	padding: 5px;
 }
-
-/* ********************************** */
-/*             CATEGORIES             */
-/* ********************************** */
 
 .top-categories {
 	display: flex;
@@ -328,11 +306,9 @@ html {
 	color: var(--primary-color);
 }
 
-
-
 .container-products {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
   max-width: 1200px;
   margin: 2rem auto;
@@ -342,7 +318,7 @@ html {
 
 .container-colum {
   padding: 1rem;
-  border: none; /* Sin fondo ni borde */
+  border: none;
 }
 
 .container-colum h2 {
@@ -356,32 +332,30 @@ html {
   margin: 0;
   color: #333;
 }
+
 .footer{
 	display: flex;
 	flex-direction: row;
-	
 }
+
 .redes{
 	align-items: center;
 	width: 100%;
 	margin-left: 0.4%;
-	
-	
 }
+
 .redes img{
 	margin: 10px;
 	border-radius: 10px;
-	
 }
+
 .footers{
 	margin-left: 42%;
 }
+
 span{
 	color: black;
 	font-size: medium;
 	font-style: normal;
 	padding: 17px;
 }
-
-
-
