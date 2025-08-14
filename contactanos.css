@@ -17,9 +17,6 @@ html {
 	box-sizing: border-box;
 }
 
-/* ********************************** */
-/*             UTILIDADES             */
-/* ********************************** */
 .container {
 	max-width: 120rem;
 	margin: 0 auto;
@@ -31,11 +28,6 @@ html {
 	font-size: 3rem;
 }
 
-/* ********************************** */
-/*               HEADER               */
-/* ********************************** */
-
-/*logo*/
 .container-logo {
 	display: flex;
 	align-items: center;
@@ -82,7 +74,6 @@ html {
 	flex-direction: column;
 }
 
-/* ************* NAVBAR ************* */
 .container-navbar {
 	background-color: var(--primary-color);
 }
@@ -97,7 +88,7 @@ html {
 .navbar .fa-bars {
 	display: none;
 }
-/*menus*/
+
 .menu {
 	display: flex;
 	gap: 2rem;
@@ -137,12 +128,6 @@ html {
 	color: #fff;
 }
 
-
-
-/* ********************************** */
-/*               BANNER               */
-/* ********************************** */
-
 .iot-section {
   padding: 40px 20px;
   text-align: center;
@@ -180,11 +165,6 @@ html {
   line-height: 1.8;
 }
 
-/*form*/
-/* ********************************** */
-/*              FEATURES              */
-/* ********************************** */
-
 .card-feature {
 	display: flex;
 	align-items: center;
@@ -216,20 +196,19 @@ span{
 .feature-content p {
 	color: #000000;
 	font-weight: 50;
-	
 }
+
 .contacto{
 	display: flex;
 	flex-direction: row;
-	
 }
+
 .contactol{
 	width: 50%;
 	margin: 50px;
 	margin-left: 250px;
-	
-	
 }
+
 .contactor{
 	width: 50%;
 	gap: 20%;
@@ -245,24 +224,22 @@ textarea{
 	height: 100px;
 }
 
-/*footer*/
 .footer{
 	display: flex;
 	flex-direction: row;
-	
 }
+
 .redes{
 	align-items: center;
 	width: 100%;
 	margin-left: 0.4%;
-	
-	
 }
+
 .redes img{
 	margin: 10px;
 	border-radius: 10px;
-	
 }
+
 .footers{
 	margin-left: 42%;
 }
